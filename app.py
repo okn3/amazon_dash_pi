@@ -25,7 +25,7 @@ def post_line(message):
     params = {u"message":message.encode('utf-8')}
     params = urllib.urlencode(params)
     req = urllib2.Request(url)
-    AT = "GWakfkRlYf1JmryBWzOcFcfzVpVeg1sXkCKcWd1w3S1"
+    AT = "******************"
     #req.add_header(u"Authorization",u"Bearer "+os.environ[u"LINE_ACCESS_TOKEN"])
     req.add_header(u"Authorization",u"Bearer "+AT)
     req.add_data(params)
