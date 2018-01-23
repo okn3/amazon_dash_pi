@@ -9,7 +9,8 @@ import os,sys
 @app.route('/shoshu')
 def notify_shoshu():
 #    post_line(u"消臭力")
-    os.system("open 'https://www.youtube.com/watch?v=s39_de-2dpQ'")
+    os.system("open 'https://www.youtube.com/watch?v=s39_de-2dpQ'") # 消臭力のYoutubeを再生
+    os.system("node /Users/okuno/Desktop/@worklog/20180107_google_home_hack/google-home-notifier/main2.js 消臭力") #googlehomeで喋らせる
 
 @app.route('/furugura')
 def notify_furugura():
