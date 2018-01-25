@@ -1,0 +1,49 @@
+Script started on 2018年01月24日 23時16分10秒
+]0;pi@raspberrypi: ~/Develop/amazon_dash_pi/dasher[01;32mpi@raspberrypi[00m:[01;34m~/Develop/amazon_dash_pi/dasher $[00m ls
+[0m[01;32mLICENSE[0m  [01;32mREADME.md[0m  [01;32mapp.js[0m  [01;34mconfig[0m  [01;34mlib[0m  [01;34mnode_modules[0m  npm-debug.log  [01;32mpackage.json[0m  [01;34mscript[0m  typescript
+]0;pi@raspberrypi: ~/Develop/amazon_dash_pi/dasher[01;32mpi@raspberrypi[00m:[01;34m~/Develop/amazon_dash_pi/dasher $[00m cd script/
+]0;pi@raspberrypi: ~/Develop/amazon_dash_pi/dasher/script[01;32mpi@raspberrypi[00m:[01;34m~/Develop/amazon_dash_pi/dasher/script $[00m ls
+[0m[01;32mbootstrap[0m  [01;32mfind_button[0m  [01;32minstall[0m  [01;32mrestart[0m  [01;32mserver[0m  [01;32muninstall[0m  [01;32mupgrade[0m
+]0;pi@raspberrypi: ~/Develop/amazon_dash_pi/dasher/script[01;32mpi@raspberrypi[00m:[01;34m~/Develop/amazon_dash_pi/dasher/script $[00m ./find_button 
+module.js:472
+    throw err;
+    ^
+
+Error: Cannot find module '/home/pi/Develop/amazon_dash_pi/dasher/script/node_modules/node-dash-button/bin/findbutton'
+    at Function.Module._resolveFilename (module.js:470:15)
+    at Function.Module._load (module.js:418:25)
+    at Module.runMain (module.js:605:10)
+    at run (bootstrap_node.js:420:7)
+    at startup (bootstrap_node.js:139:9)
+    at bootstrap_node.js:535:3
+]0;pi@raspberrypi: ~/Develop/amazon_dash_pi/dasher/script[01;32mpi@raspberrypi[00m:[01;34m~/Develop/amazon_dash_pi/dasher/script $[00m cd [K[K[K..
+bash: ..: コマンドが見つかりません
+]0;pi@raspberrypi: ~/Develop/amazon_dash_pi/dasher/script[01;32mpi@raspberrypi[00m:[01;34m~/Develop/amazon_dash_pi/dasher/script $[00m cd ..
+]0;pi@raspberrypi: ~/Develop/amazon_dash_pi/dasher[01;32mpi@raspberrypi[00m:[01;34m~/Develop/amazon_dash_pi/dasher $[00m sudo ./script/find_button 
+Watching for arp & udp requests on your local network, please try to press your dash now
+Dash buttons should appear as manufactured by 'Amazon Technologies Inc.' 
+Possible dash hardware address detected: 34:d2:70:46:13:3c Manufacturer: unknown Protocol: udp
+Possible dash hardware address detected: 34:d2:70:46:13:3c Manufacturer: unknown Protocol: arp
+Possible dash hardware address detected: 00:25:36:a9:08:94 Manufacturer: Oki Electric Industry Co. Protocol: arp
+Possible dash hardware address detected: 00:25:36:a9:08:94 Manufacturer: Oki Electric Industry Co. Protocol: arp
+Possible dash hardware address detected: 00:25:36:a9:08:94 Manufacturer: Oki Electric Industry Co. Protocol: arp
+Possible dash hardware address detected: 00:25:36:a9:08:94 Manufacturer: Oki Electric Industry Co. Protocol: arp
+Possible dash hardware address detected: 00:25:36:a9:08:94 Manufacturer: Oki Electric Industry Co. Protocol: arp
+Possible dash hardware address detected: 00:25:36:a9:08:94 Manufacturer: Oki Electric Industry Co. Protocol: arp
+Possible dash hardware address detected: 00:25:36:a9:08:94 Manufacturer: Oki Electric Industry Co. Protocol: arp
+Possible dash hardware address detected: 00:25:36:a9:08:94 Manufacturer: Oki Electric Industry Co. Protocol: arp
+Possible dash hardware address detected: 00:25:36:a9:08:94 Manufacturer: Oki Electric Industry Co. Protocol: arp
+Possible dash hardware address detected: 00:25:36:a9:08:94 Manufacturer: Oki Electric Industry Co. Protocol: arp
+Possible dash hardware address detected: 00:25:36:a9:08:94 Manufacturer: Oki Electric Industry Co. Protocol: arp
+Possible dash hardware address detected: 00:25:36:a9:08:94 Manufacturer: Oki Electric Industry Co. Protocol: arp
+Possible dash hardware address detected: fc:65:de:0c:91:48 Manufacturer: unknown Protocol: udp
+Possible dash hardware address detected: fc:65:de:0c:91:48 Manufacturer: unknown Protocol: arp
+Possible dash hardware address detected: a8:1e:84:70:60:78 Manufacturer: unknown Protocol: arp
+Possible dash hardware address detected: 00:25:36:a9:08:94 Manufacturer: Oki Electric Industry Co. Protocol: arp
+Possible dash hardware address detected: 00:25:36:a9:08:94 Manufacturer: Oki Electric Industry Co. Protocol: arp
+Possible dash hardware address detected: 00:25:36:a9:08:94 Manufacturer: Oki Electric Industry Co. Protocol: arp
+Possible dash hardware address detected: 00:25:36:a9:08:94 Manufacturer: Oki Electric Industry Co. Protocol: arp
+^C]0;pi@raspberrypi: ~/Develop/amazon_dash_pi/dasher[01;32mpi@raspberrypi[00m:[01;34m~/Develop/amazon_dash_pi/dasher $[00m ^C
+]0;pi@raspberrypi: ~/Develop/amazon_dash_pi/dasher[01;32mpi@raspberrypi[00m:[01;34m~/Develop/amazon_dash_pi/dasher $[00m exit
+
+Script done on 2018年01月24日 23時18分05秒
