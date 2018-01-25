@@ -4,7 +4,12 @@ from flask import Flask
 app = Flask(__name__)
 import urllib2, urllib, urlparse
 import os,sys
+from os.path import join, dirname
+from dotenv import load_dotenv
 
+dotenv_path = join(dirname(__file__), '.env')
+load_dotenv(dotenv_path)
+LAT = os.environ.get("LINE_ACCESS_TOKEN")
 
 @app.route('/shoshu')
 def notify_shoshu():
@@ -40,7 +45,7 @@ def post_line(message):
     req = urllib2.Request(url)
     AT = "******************"
     #req.add_header(u"Authorization",u"Bearer "+os.environ[u"LINE_ACCESS_TOKEN"])
-    req.add_header(u"Authorization",u"Bearer "+AT)
+    req.add_header(u"Authorization",u"Bearer "+LAT)
     req.add_data(params)
 
     res = urllib2.urlopen(req)
